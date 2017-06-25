@@ -1,0 +1,374 @@
+/*********
+
+Base Styles
+
+***********/
+
+.hide {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.stay-down {
+    flex: 1;
+    padding: 20px;
+}
+
+h1,
+h2,
+.quote {
+    text-align: center;
+}
+
+#page-heading,
+#registry-text {
+    padding-top: 70px;
+}
+
+.title {
+    text-align: center;
+    color: #8E4585;
+}
+
+a:hover {
+    color: #8E4585;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+span {
+    font-size: 14px;
+}
+
+#the-wedding a,
+#GoGallery a {
+    color: #000;
+}
+
+#the-wedding h2,
+#GoGallery h2,
+#page-heading h1,
+#registry-text h1 {
+    color: #8E4585;
+}
+
+.quote {
+    font-size: 16px;
+}
+
+
+/**********
+
+Navigation
+
+***********/
+
+#navi {
+    background-color: #8E4585;
+    border-bottom: solid 5px silver;
+    opacity: .85;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: silver;
+    transition: .3s;
+}
+
+.navbar-inverse,
+.navbar-nav li a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.navbar-inverse,
+.navbar-nav li a:hover {
+    color: #8E4585;
+    font-size: 15px;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+/******
+
+Hero
+
+*******/
+
+#hero {
+    background: url('../images/IMG_8019.jpg') no-repeat center;
+    margin-top: -20px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#hero h1 {
+    position: relative;
+    background-color: #8E4585;
+    top: 10%;
+    left: 1%;
+    opacity: .75;
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 350px;
+}
+
+.tag-intro {
+    display: flex;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-intro h1 {
+    align-self: center;
+}
+
+
+/*********
+
+Our Story
+
+**********/
+
+.story-pic {
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+#tre-story p,
+#ash-story p {
+    font-size: 15px;
+}
+
+.bar {
+    min-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: #8E4585;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    /*font-style: italic;*/
+    text-align: center;
+    border-top: 3px solid silver;
+    border-bottom: 3px solid silver;
+}
+
+
+/*********
+
+The Wedding
+
+***********/
+
+#the-wedding h2,
+h4 {
+    text-align: center;
+}
+
+#the-wedding li {
+    font-size: 15px;
+    list-style: square;
+    color: #8E4585;
+}
+
+#the-wedding p {
+    color: #000;
+}
+
+.button-rsvp {
+    margin: 0;
+    text-align: center;
+}
+
+#rsvp {
+    padding: 15px 32px;
+    border: solid 3px #fff;
+    font-size: 16px;
+    border-radius: 10%;
+    color: #fff;
+    background-color: #8E4585;
+}
+
+#rsvp:hover {
+    color: #8E4585;
+    font-size: 16px;
+    background-color: silver;
+    border: solid 3px #8E4585;
+    transition: .5s;
+}
+
+#rsvp a {
+    color: #fff;
+}
+
+
+/**********
+
+Photo Gallery
+
+***********/
+
+.img-thumbnail {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.photo-tag {
+    display: block;
+    text-align: center;
+}
+
+
+/**********
+
+Back to Top
+
+***********/
+
+#backtop {
+    position: fixed;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+    outline: none;
+    overflow: hidden;
+    color: silver;
+    text-align: center;
+    opacity: .85;
+    background-color: #8E4585;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 2px solid silver;
+    cursor: pointer;
+    transition: all .3s linear;
+    z-index: 999999;
+}
+
+
+/*********
+
+Footer
+
+**********/
+
+#to-top a {
+    text-decoration: none;
+    color: #fff;
+    display: none;
+}
+
+footer {
+    background: #8E4585;
+    border-top: solid 5px silver;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+
+/************************
+
+The Wedding Party Styles
+
+*************************/
+
+.more {
+    margin-top: 15px;
+}
+
+h3 {
+    margin: 0;
+}
+
+#wedding-party p {
+    font-size: 16px;
+}
+
+
+/************************
+
+The Registry Styles
+
+*************************/
+
+#registry-text {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logos img {
+    max-width: 100%;
+    align-self: center;
+}
+
+
+/**************
+
+Media Queries
+
+**************/
+
+@media (max-width: 760px) {
+    #hero {
+        min-height: 455px;
+    }
+    #to-top a {
+        display: block;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    .tag-intro {
+        display: none;
+    }
+    #registry-text {
+        height: 100vh;
+    }
+}
