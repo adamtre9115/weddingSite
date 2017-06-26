@@ -103,7 +103,6 @@ Navigation
 .navbar-inverse,
 .navbar-nav li a:hover {
     color: #8E4585;
-    font-size: 15px;
     text-decoration: underline;
     transition: .3s;
 }
