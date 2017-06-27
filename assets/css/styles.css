@@ -49,10 +49,13 @@ span {
 }
 
 #the-wedding a,
-#GoGallery a {
+#GoGallery a,
+span {
     color: #000;
 }
-
+li span {
+    font-size: 16px;
+}
 #the-wedding h2,
 #GoGallery h2,
 #page-heading h1,
