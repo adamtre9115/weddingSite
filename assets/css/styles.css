@@ -162,7 +162,6 @@ Hero
 Our Story
 
 **********/
-
 .story-pic {
     margin: 0 auto;
     padding-top: 25px;
@@ -232,6 +231,7 @@ h4 {
 }
 
 #rsvp a {
+    border: none;
     color: #fff;
 }
 
@@ -241,6 +241,10 @@ h4 {
 Photo Gallery
 
 ***********/
+
+#GoGallery {
+    padding-top: 50px;
+}
 
 .img-thumbnail {
     height: 100%;
@@ -324,6 +328,13 @@ h3 {
     font-size: 16px;
 }
 
+.center-align {
+    margin: 0 auto;
+}
+.caret:hover {
+    cursor: pointer;
+    color: #8E4585;
+}
 
 /************************
 
