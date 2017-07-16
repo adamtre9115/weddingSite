@@ -335,7 +335,9 @@ h3 {
     cursor: pointer;
     color: #8E4585;
 }
-
+.img-thumbnail {
+    height: 300px;
+}
 /************************
 
 The Registry Styles
@@ -372,6 +374,11 @@ Media Queries
     }
     #to-top a {
         display: block;
+    }
+    /*The wedding party  */
+
+    .img-thumbnail {
+        height: 100%;
     }
 }
 
